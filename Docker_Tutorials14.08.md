@@ -1,11 +1,28 @@
 # Docker Tutorials 
-[GitHub Link]()
---- 
+[Docker](https://docker.com)
+[GitHub Link](https://github.com/ayse-ozturk/dockerWorkshop)
+[DockerHub](https://hub.docker.com/)
+
+---
+
+
 '''sh
 docker -v
 docker --version
-docker -info 
+docker info    
 '''
+- Bare Metal
+- Virtual Machine 
+- Containerization 
+- Docker gemi limanlarında gemilere yük taşıyan ve boşaltan  işcilere denir. 
+- Docker 2008 --> Solomon Hykes 
+- Şirket Adı: DotCloud --> Docker.INC
+- go dilinde yazılır
+- Docker aynı işletim sistemi ğzerinde birbirinden bağımsız ve izole container oluşturmamızı destekler 
+- docker: Hızlı derleme, test için, dağıtım, ölçeklendirmeyi sağlar. 
+- dockerHub
+- 
+
 ---
 **Docker info**
 $ docker info
@@ -61,4 +78,3 @@ Server:
   127.0.0.0/8
  Live Restore Enabled: false
 
-s
