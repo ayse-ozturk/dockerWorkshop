@@ -1,16 +1,17 @@
 # Docker Tutorials 
-[Docker](https://docker.com)
+[Docker](https://docker.com/)
 [GitHub Link](https://github.com/ayse-ozturk/dockerWorkshop)
 [DockerHub](https://hub.docker.com/)
 
 ---
 
 
-'''sh
-docker -v
-docker --version
-docker info    
-'''
+```sh
+docker -v 
+docker --version 
+docker info
+```
+
 - Bare Metal
 - Virtual Machine 
 - Containerization 
