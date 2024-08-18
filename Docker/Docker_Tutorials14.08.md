@@ -41,7 +41,26 @@ dockerize: Bir projeyi docker üzerinde koşturmak demektir
 
 PORT
 65536 port
-Port 65536 port 0<=PORT<=1023 1024<=PORT<= 49151 49152<=PORT<=65535
+ 0<=PORT<=1023 
+ 1024<=PORT<=49151 
+ 49152<=PORT<=65535
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 **Docker info**
 $ docker info
