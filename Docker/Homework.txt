@@ -1,0 +1,10 @@
+maven?
+docker bileşenleri
+WLS (windows Subsystem For Linux)
+Alpine
+docker --version
+docker -v 
+docker info
+
+mvn clean install -DskipTest
+docker-compose up

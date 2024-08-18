@@ -21,10 +21,28 @@ docker info
 - go dilinde yazılır
 - Docker aynı işletim sistemi ğzerinde birbirinden bağımsız ve izole container oluşturmamızı destekler 
 - docker: Hızlı derleme, test için, dağıtım, ölçeklendirmeyi sağlar. 
-- dockerHub
-- 
+- dockerHub: Docker imagelarının saklandığı yerdir. 
+- 2015 --> Docker Swam eklenmiş 
+- Farklı işletim sistemlerinde çalışıyor (Cross Platform)
+- Docker CE 
+- Docker EE
+  ---
 
----
+
+DockerHub: Docker imagelarımızı sakladığımız yer
+Image: Bütün ayarları yapılmış çalışmayı beklenen docker objesidir. 
+Container:Imageların çalıştığı yer
+Dockerfile: image oluştumak için kullanılır. (docker build -t imageName)
+docker-comnpose: Birden fazla servisin yönetildiği yerdir. (docker-compose up -d)
+volume:Docker verilerinin kalıcılığı
+swarm: docker orchestration(ölçeklendirme)
+network:farklı Containerlerimizin birbiri ile bağlantı kurduğu alanlardır.
+dockerize: Bir projeyi docker üzerinde koşturmak demektir
+
+PORT
+65536 port
+Port 65536 port 0<=PORT<=1023 1024<=PORT<= 49151 49152<=PORT<=65535
+
 **Docker info**
 $ docker info
 Client:
